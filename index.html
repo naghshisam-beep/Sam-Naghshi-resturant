@@ -15,23 +15,51 @@
   <body>
     <div class="container bg-green-200 p-[30px] rounded-xl shadow-xl/30">
       <header
-        class="mb-[30px] bg-lime-300 flex justify-between rounded-xl p-[15px] shadow-xl/30"
+        class="mb-[30px] bg-lime-300 flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5 rounded-xl p-4 md:p-[15px] shadow-xl/30 w-full max-w-full"
       >
-        <h1 class="text-5xl font-semibold">Sam Resturant's Menu</h1>
+        <h1 class="text-3xl md:text-4xl xl:text-5xl font-semibold break-words">
+          Sam Restaurant's Menu
+        </h1>
+
         <nav
-          class="cursor-pointer flex items-center text-[20px] font-semibold hover:text-gray-700 hover:underline hover:decoration-dotted"
+          class="flex flex-wrap items-center gap-3 md:gap-4 md:text-lg font-semibold"
         >
-          <a href="#fast-food">FastFood Menu</a>
-          <a href="#iranian-food">IranianFood Menu</a>
-          <a href="#work with us">Work With Us </a>
-          <a href="#footer">Footer</a>
+          <a
+            href="#fast-food"
+            class="transition-colors hover:text-gray-700 hover:underline hover:decoration-dotted"
+          >
+            FastFood Menu
+          </a>
+
+          <a
+            href="#iranian-food"
+            class="transition-colors hover:text-gray-700 hover:underline hover:decoration-dotted"
+          >
+            IranianFood Menu
+          </a>
+
+          <a
+            href="#work-with-us"
+            class="transition-colors hover:text-gray-700 hover:underline hover:decoration-dotted"
+          >
+            Work With Us
+          </a>
+
+          <a
+            href="#footer"
+            class="transition-colors duration-300 hover:text-gray-700 hover:underline hover:decoration-dotted"
+          >
+            Footer
+          </a>
         </nav>
+
         <p
-          class="cursor-pointer flex items-center text-[20px] font-semibold hover:text-gray-700 hover:underline hover:decoration-dotted"
+          class="cursor-pointer md:text-lg font-semibold transition-colors duration-300 hover:text-gray-700 hover:underline text-[20px]"
         >
-          Phone Call: +989055597092
+          Phone Call:+989055597092
         </p>
       </header>
+
       <article>
         <div
           class="mb-[15px] bg-lime-200 rounded-xl flex gap-[10px] p-[15px] shadow-xl/30"
@@ -49,10 +77,9 @@
             a wonderful dining experience. We look forward to welcoming you!
           </p>
           <img
-            class="rounded-xl shadow-xl/30"
+            class="w-full max-w-[300px] h-auto rounded-xl shadow-xl/30"
             src="./assets/img/resturant.png"
             alt="my resturant"
-            width="300px"
           />
         </div>
 
